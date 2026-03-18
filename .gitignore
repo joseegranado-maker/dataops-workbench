@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Power BI temp / local
+*.tmp
+
+# Large outputs or local artifacts
+outputs/
+dist/
+build/
