@@ -1,76 +1,125 @@
 # DataOps Workbench
 
-A practical workbench for Python, VS Code, Power BI, relational and NoSQL databases, AI assistants, and legacy Visual FoxPro systems.
+A practical and structured environment to work with data, troubleshooting, and legacy systems in a single workflow.
 
-## What this repository contains
+---
 
-- Full manuals in Portuguese and English
-- Internal playbook and quick starts
-- Project templates
-- Setup scripts
-- Database connection examples
-- Power BI notes
-- AI usage patterns by project
-- Visual FoxPro / AVFP notes and migration guidance
+## Overview
 
-## Core idea
+DataOps Workbench combines:
 
-Use one repeatable structure for every project:
+* Python + VS Code + Jupyter
+* Power BI (data modelling + DAX)
+* Relational and NoSQL databases
+* AI assistants (ChatGPT, Gemini, NotebookLM)
+* Legacy systems (Visual FoxPro + AVFP)
 
-- one folder
-- one `.venv`
-- one `.env`
-- one Git repository
-- one main ChatGPT/Codex conversation
-- one main Gemini conversation
-- one NotebookLM notebook
+This is not a demo project.
+It is designed for real-world use: data analysis, troubleshooting, process improvement, and system modernization.
 
-## Main stack
+---
 
-- Python
-- VS Code
-- Jupyter
-- Git / GitHub
-- MySQL
-- PostgreSQL
-- SQL Server Express
-- MongoDB
-- Power BI
-- DAX Studio
-- DBeaver
-- Mito / ydata-profiling / OpenRefine
-- ChatGPT / Gemini / NotebookLM
-- Visual FoxPro / AVFP (legacy layer)
+## Core Components
 
-## Suggested folder layout
+### Development
 
-```text
-data/
-notebooks/
-scripts/
-outputs/
-pbix/
-docs/
-.env
-requirements.txt
-README.md
+* Python (pandas, numpy)
+* VS Code + Jupyter
+* Virtual environments (.venv)
+
+### Data & Databases
+
+* MySQL
+* PostgreSQL
+* SQL Server Express
+* MongoDB
+* DBeaver / Workbench / SSMS / Compass
+
+### Analytics
+
+* Power BI
+* DAX
+* DAX Studio
+
+### AI Layer
+
+* ChatGPT
+* Gemini
+* NotebookLM
+
+### Legacy
+
+* Visual FoxPro (VFP)
+* Advanced Visual FoxPro (AVFP)
+* DBF integration and migration support
+
+---
+
+## Project Structure
+
+```
+dataops-workbench/
+│
+├── docs/
+├── scripts/
+├── templates/
+├── examples/
+├── vfp/
 ```
 
-## First steps
+---
 
-1. Install Python and VS Code.
-2. Create a project folder.
-3. Create `.venv`.
-4. Install base packages.
-5. Initialize Git.
-6. Validate one database connection.
-7. Validate one Power BI report.
-8. Set up AI tools by project.
+## Quick Start
 
-## Notes on legacy systems
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r templates/requirements.txt
+```
 
-Visual FoxPro remains a legacy concern. The goal is maintenance, documentation and gradual migration. Treat community extensions such as AVFP as non-official and validate them per application.
+---
 
-## Source links
+## Use Cases
 
-See the manuals for the curated source appendix.
+* Data analysis and reporting
+* Troubleshooting technical issues
+* Root cause analysis
+* Data pipeline prototyping
+* Legacy system documentation and migration
+
+---
+
+## AI Workflow (Recommended)
+
+Each project should include:
+
+* 1 ChatGPT conversation
+* 1 Gemini conversation
+* 1 NotebookLM notebook
+
+Used for:
+
+* code explanation
+* documentation
+* refactoring
+* architecture decisions
+
+---
+
+## Maturity Model
+
+* **Basic** → environment working
+* **Intermediate** → consistent usage
+* **Advanced** → automation and integration
+
+---
+
+## Status
+
+Work in progress — evolving into a complete data and troubleshooting framework.
+
+---
+
+## License
+
+Free to use and adapt.

@@ -6,17 +6,27 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Environment files
+# Environment
 .env
 
-# OS / editor
+# OS
 .DS_Store
 Thumbs.db
 
-# Power BI temp / local
-*.tmp
+# Logs
+*.log
 
-# Large outputs or local artifacts
-outputs/
-dist/
+# Build
 build/
+dist/
+
+# Data / outputs
+outputs/
+*.csv
+*.parquet
+
+# Power BI temp
+*.pbix.autosave
+
+# VS Code
+.vscode/
