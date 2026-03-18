@@ -1,0 +1,23 @@
+Estou a estruturar um ambiente de trabalho único para análise de dados, troubleshooting, automação e modernização de sistemas legacy.
+
+O objetivo não é juntar ferramentas por curiosidade. É reduzir fricção no dia a dia e criar uma forma de trabalho repetível por projeto.
+
+O stack junta:
+- Python, VS Code e Jupyter
+- Power BI e DAX
+- MySQL, PostgreSQL, SQL Server e MongoDB
+- Git e GitHub
+- ChatGPT, Gemini e NotebookLM
+- Visual FoxPro e uma estratégia realista de estabilização e migração
+
+Além do setup, o projeto inclui:
+- manuais detalhados
+- quick starts
+- playbook interno
+- templates
+- scripts
+- exemplos de ligação entre Python, bases de dados e Power BI
+
+A ideia é simples: ter um workbench único para passar de exploração a documentação, de reporting a troubleshooting, e do legado à modernização.
+
+Estou a preparar uma versão interna completa e uma versão pública para partilha externa.
